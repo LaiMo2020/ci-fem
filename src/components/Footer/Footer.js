@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="uk-position-bottom uk-padding-small">
             <div className="uk-grid">
-                <div className="uk-width-1-3@m uk-first-column uk-flex uk-flex-middle uk-flex-center">
+                <div className="uk-width-1-3@m uk-first-column uk-flex uk-flex-middle">
                     <p className="uk-text-left project-desc">
                         This project was a paired programming effort by two ragtag Developers with a flair
                         un-paralleled in the known world, to create a local space for CI-cohorts to post
@@ -46,7 +46,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="uk-width-expand@m uk-flex uk-flex-middle uk-flex-center">
+                <div className="uk-width-expand@m uk-flex uk-flex-middle uk-flex-center uk-flex-right@m">
                     <a
                         className="uk-padding-small dev-link"
                         target="_blank"
