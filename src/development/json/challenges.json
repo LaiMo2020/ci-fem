@@ -1,5 +1,5 @@
-{
-    "Coffeeroasters subscription site": {
+[
+    {
         "url": "https://www.frontendmentor.io/challenges/coffeeroasters-subscription-site-5Fc26HVY6",
         "image": "challenge-0-main.jpeg",
         "freemium": "premium",
@@ -13,7 +13,7 @@
         ],
         "images": []
     },
-    "Interactive pricing component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8",
         "image": "challenge-1-main.jpeg",
         "freemium": "free",
@@ -27,7 +27,7 @@
         ],
         "images": []
     },
-    "Maker pre-launch landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd",
         "image": "challenge-2-main.jpeg",
         "freemium": "premium",
@@ -41,7 +41,7 @@
         ],
         "images": []
     },
-    "Loopstudios landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw",
         "image": "challenge-3-main.jpeg",
         "freemium": "free",
@@ -55,7 +55,7 @@
         ],
         "images": []
     },
-    "Pomodoro app": {
+    {
         "url": "https://www.frontendmentor.io/challenges/pomodoro-app-KBFnycJ6G",
         "image": "challenge-4-main.jpeg",
         "freemium": "premium",
@@ -69,7 +69,7 @@
         ],
         "images": []
     },
-    "Launch countdown timer": {
+    {
         "url": "https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-",
         "image": "challenge-5-main.jpeg",
         "freemium": "free",
@@ -83,7 +83,7 @@
         ],
         "images": []
     },
-    "Creative agency single-page site": {
+    {
         "url": "https://www.frontendmentor.io/challenges/creative-agency-singlepage-site-Pq6V3I2RM",
         "image": "challenge-6-main.jpeg",
         "freemium": "premium",
@@ -97,7 +97,7 @@
         ],
         "images": []
     },
-    "Todo app": {
+    {
         "url": "https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW",
         "image": "challenge-7-main.jpeg",
         "freemium": "free",
@@ -111,7 +111,7 @@
         ],
         "images": []
     },
-    "Pod request access landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG",
         "image": "challenge-8-main.jpeg",
         "freemium": "premium",
@@ -125,7 +125,7 @@
         ],
         "images": []
     },
-    "Profile card component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ",
         "image": "challenge-9-main.jpeg",
         "freemium": "free",
@@ -138,7 +138,7 @@
         ],
         "images": []
     },
-    "Clock app": {
+    {
         "url": "https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM",
         "image": "challenge-10-main.jpeg",
         "freemium": "premium",
@@ -153,7 +153,7 @@
         ],
         "images": []
     },
-    "Officelite coming soon site": {
+    {
         "url": "https://www.frontendmentor.io/challenges/officelite-coming-soon-site-M4DIPNz8g",
         "image": "challenge-11-main.jpeg",
         "freemium": "premium",
@@ -167,7 +167,7 @@
         ],
         "images": []
     },
-    "Testimonials grid section": {
+    {
         "url": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7",
         "image": "challenge-12-main.jpeg",
         "freemium": "free",
@@ -180,7 +180,7 @@
         ],
         "images": []
     },
-    "Designo multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT",
         "image": "challenge-13-main.jpeg",
         "freemium": "premium",
@@ -194,7 +194,7 @@
         ],
         "images": []
     },
-    "FAQ accordion card": {
+    {
         "url": "https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam",
         "image": "challenge-14-main.jpeg",
         "freemium": "free",
@@ -208,7 +208,7 @@
         ],
         "images": []
     },
-    "GitHub Jobs API": {
+    {
         "url": "https://www.frontendmentor.io/challenges/github-jobs-api-93L-NL6rP",
         "image": "challenge-15-main.jpeg",
         "freemium": "premium",
@@ -223,7 +223,7 @@
         ],
         "images": []
     },
-    "Room homepage": {
+    {
         "url": "https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq",
         "image": "challenge-16-main.jpeg",
         "freemium": "free",
@@ -237,7 +237,7 @@
         ],
         "images": []
     },
-    "PayAPI multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/payapi-multipage-website-FDLR1Y11e",
         "image": "challenge-17-main.jpeg",
         "freemium": "premium",
@@ -251,7 +251,7 @@
         ],
         "images": []
     },
-    "Social proof section": {
+    {
         "url": "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA",
         "image": "challenge-18-main.jpeg",
         "freemium": "free",
@@ -264,7 +264,7 @@
         ],
         "images": []
     },
-    "Photosnap multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW",
         "image": "challenge-19-main.jpeg",
         "freemium": "premium",
@@ -278,7 +278,7 @@
         ],
         "images": []
     },
-    "IP Address Tracker": {
+    {
         "url": "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0",
         "image": "challenge-20-main.jpeg",
         "freemium": "free",
@@ -293,7 +293,7 @@
         ],
         "images": []
     },
-    "Arch Studio multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/arch-studio-multipage-website-wNIbOFYR6",
         "image": "challenge-21-main.jpeg",
         "freemium": "premium",
@@ -307,7 +307,7 @@
         ],
         "images": []
     },
-    "Chat app CSS illustration": {
+    {
         "url": "https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY",
         "image": "challenge-22-main.jpeg",
         "freemium": "free",
@@ -320,7 +320,7 @@
         ],
         "images": []
     },
-    "Article preview component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT",
         "image": "challenge-23-main.jpeg",
         "freemium": "free",
@@ -334,7 +334,7 @@
         ],
         "images": []
     },
-    "Fylo data storage component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n",
         "image": "challenge-24-main.jpeg",
         "freemium": "free",
@@ -347,7 +347,7 @@
         ],
         "images": []
     },
-    "Coding bootcamp testimonials slider": {
+    {
         "url": "https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL",
         "image": "challenge-25-main.jpeg",
         "freemium": "free",
@@ -361,7 +361,7 @@
         ],
         "images": []
     },
-    "Scoot multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/scoot-multipage-website-N76alNPRJ",
         "image": "challenge-26-main.jpeg",
         "freemium": "premium",
@@ -375,7 +375,7 @@
         ],
         "images": []
     },
-    "Dine restaurant website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/dine-restaurant-website-yAt7Vvxt7",
         "image": "challenge-27-main.jpeg",
         "freemium": "premium",
@@ -389,7 +389,7 @@
         ],
         "images": []
     },
-    "Social media dashboard with theme switcher": {
+    {
         "url": "https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H",
         "image": "challenge-28-main.jpeg",
         "freemium": "free",
@@ -403,7 +403,7 @@
         ],
         "images": []
     },
-    "Minimalist portfolio website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE",
         "image": "challenge-29-main.jpeg",
         "freemium": "premium",
@@ -417,7 +417,7 @@
         ],
         "images": []
     },
-    "Job listings with filtering": {
+    {
         "url": "https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt",
         "image": "challenge-30-main.jpeg",
         "freemium": "free",
@@ -431,7 +431,7 @@
         ],
         "images": []
     },
-    "Easybank landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN",
         "image": "challenge-31-main.jpeg",
         "freemium": "free",
@@ -445,7 +445,7 @@
         ],
         "images": []
     },
-    "myteam multi-page website": {
+    {
         "url": "https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW",
         "image": "challenge-32-main.jpeg",
         "freemium": "premium",
@@ -459,7 +459,7 @@
         ],
         "images": []
     },
-    "Manage landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5",
         "image": "challenge-33-main.jpeg",
         "freemium": "free",
@@ -473,7 +473,7 @@
         ],
         "images": []
     },
-    "Insure landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8",
         "image": "challenge-34-main.jpeg",
         "freemium": "free",
@@ -487,7 +487,7 @@
         ],
         "images": []
     },
-    "Pricing component with toggle": {
+    {
         "url": "https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC",
         "image": "challenge-35-main.jpeg",
         "freemium": "free",
@@ -501,7 +501,7 @@
         ],
         "images": []
     },
-    "Rock, Paper, Scissors game": {
+    {
         "url": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH",
         "image": "challenge-36-main.jpeg",
         "freemium": "free",
@@ -515,7 +515,7 @@
         ],
         "images": []
     },
-    "URL shortening API landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G",
         "image": "challenge-37-main.jpeg",
         "freemium": "free",
@@ -530,7 +530,7 @@
         ],
         "images": []
     },
-    "Four card feature section": {
+    {
         "url": "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK",
         "image": "challenge-38-main.jpeg",
         "freemium": "free",
@@ -543,7 +543,7 @@
         ],
         "images": []
     },
-    "Base Apparel coming soon page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",
         "image": "challenge-39-main.jpeg",
         "freemium": "free",
@@ -557,7 +557,7 @@
         ],
         "images": []
     },
-    "Project tracking intro component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e",
         "image": "challenge-40-main.jpeg",
         "freemium": "free",
@@ -571,7 +571,7 @@
         ],
         "images": []
     },
-    "Bookmark landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158",
         "image": "challenge-41-main.jpeg",
         "freemium": "free",
@@ -585,7 +585,7 @@
         ],
         "images": []
     },
-    "Intro component with sign-up form": {
+    {
         "url": "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1",
         "image": "challenge-42-main.jpeg",
         "freemium": "free",
@@ -599,7 +599,7 @@
         ],
         "images": []
     },
-    "Single price grid component": {
+    {
         "url": "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
         "image": "challenge-43-main.jpeg",
         "freemium": "free",
@@ -612,7 +612,7 @@
         ],
         "images": []
     },
-    "Clipboard landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9",
         "image": "challenge-44-main.jpeg",
         "freemium": "free",
@@ -625,7 +625,7 @@
         ],
         "images": []
     },
-    "Ping single column coming soon page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da",
         "image": "challenge-45-main.jpeg",
         "freemium": "free",
@@ -639,7 +639,7 @@
         ],
         "images": []
     },
-    "REST Countries API with color theme switcher": {
+    {
         "url": "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca",
         "image": "challenge-46-main.jpeg",
         "freemium": "free",
@@ -654,7 +654,7 @@
         ],
         "images": []
     },
-    "Huddle landing page with alternating feature blocks": {
+    {
         "url": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100",
         "image": "challenge-47-main.jpeg",
         "freemium": "free",
@@ -667,7 +667,7 @@
         ],
         "images": []
     },
-    "Fylo dark theme landing page": {
+    {
         "url": "https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd",
         "image": "challenge-48-main.jpeg",
         "freemium": "free",
@@ -680,7 +680,7 @@
         ],
         "images": []
     },
-    "Huddle landing page with a single introductory section": {
+    {
         "url": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0",
         "image": "challenge-49-main.jpeg",
         "freemium": "free",
@@ -693,7 +693,7 @@
         ],
         "images": []
     },
-    "Fylo landing page with two column layout": {
+    {
         "url": "https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5",
         "image": "challenge-50-main.jpeg",
         "freemium": "free",
@@ -706,7 +706,7 @@
         ],
         "images": []
     },
-    "Huddle landing page with curved sections": {
+    {
         "url": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2",
         "image": "challenge-51-main.jpeg",
         "freemium": "free",
@@ -719,4 +719,4 @@
         ],
         "images": []
     }
-}
+]
