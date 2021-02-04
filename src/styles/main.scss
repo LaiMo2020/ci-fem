@@ -69,6 +69,8 @@ footer {
 .dev-link {
     color: #dd3d5c;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
 
     &:hover {
         color: #941c31;
@@ -79,5 +81,4 @@ footer {
     &__name {
         padding-left: 0.3rem;
     }
-
 }

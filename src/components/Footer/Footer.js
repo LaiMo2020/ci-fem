@@ -44,6 +44,16 @@ const Footer = () => {
                                 Slack
                             </a>
                         </li>
+                        <li>
+                            <a
+                                className='supplementary-links__link'
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/nazarja/ci-fem"
+                            >
+                                Project Source Code
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="uk-width-expand@m uk-flex uk-flex-middle uk-flex-center uk-flex-right@m">
@@ -53,7 +63,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         href="https://github.com/nazarja"
                     >
-                        <i className="fab fa-github" />
+                        <span uk-icon="icon: github; ratio: 1.2" />
                         <span className="dev-link__name">SM</span>
                     </a>
                     <a
@@ -62,7 +72,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         href="https://github.com/auxfuse"
                     >
-                        <i className="fab fa-github" />
+                        <span uk-icon="icon: github; ratio: 1.1" />
                         <span className="dev-link__name">AOB</span>
                     </a>
                 </div>
