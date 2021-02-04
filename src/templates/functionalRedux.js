@@ -10,7 +10,7 @@ const FunctionalRedux = () => {
 };
 
 const mapStateToProps = state => {
-    return { };
+    return {};
 };
 
 export default connect(null, null)(FunctionalRedux);

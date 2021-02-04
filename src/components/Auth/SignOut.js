@@ -12,7 +12,7 @@ const SignOut = (props) => {
             .then(() => props.signOutUser(props.user))
     }
 
-    return <button onClick={handleSignOut}>Sign out</button>;
+    return <li className="has-pointer" onClick={handleSignOut}>Sign out</li>;
 };
 
 const mapStateToProps = state => {

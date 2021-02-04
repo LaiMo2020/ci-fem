@@ -33,7 +33,6 @@ requestPromise('https://www.frontendmentor.io/challenges')
     })
     .catch(error => console.log(error));
 
-
 /*
 ============================================
     parse cards into individual challenges
@@ -61,7 +60,7 @@ const parseCards = cards => {
 
         challenges.push(challenge);
     }
-}
+};
 
 /*
 ============================================
@@ -72,7 +71,8 @@ const parseCards = cards => {
 const writeToJSON = () => {
     try {
         fs.writeFileSync(`${dir}/challenges.json`, JSON.stringify(challenges));
-    } catch (error) {
+    } 
+    catch (error) {
         console.log(error);
     }
 }

@@ -15,8 +15,6 @@ const imagesDir = path.join(__dirname, '../../../public/static/img/challenges');
 ============================================
 */
 
-/*  code used in devtools due to lazy loading */
-
 // const images = [];
 // const cards = document.querySelectorAll('.PreviewItem__StyledItem-wu6lmx-0');
 // cards.forEach(card => card.querySelector('.lazyload-wrapper a img').src); 
@@ -35,6 +33,6 @@ const images = ["https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/
         const response = await fetch(image);
         const buffer = await response.buffer();
         return fs.writeFileSync(`${imagesDir}/challenge-${i}-main.jpg`, buffer);
-        
+
     }))
 })();

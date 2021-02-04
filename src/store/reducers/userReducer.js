@@ -8,9 +8,9 @@ const initialState = {
 export default (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.SIGN_IN_USER:
-            return { ...state, profile: action.payload.profile, isAuth:  action.payload.isAuth };
+            return { ...state, profile: action.payload.profile, isAuth: action.payload.isAuth };
         case actionTypes.SIGN_OUT_USER:
-            return { ...state, profile: action.payload.profile, isAuth:  action.payload.isAuth };
+            return { ...state, profile: action.payload.profile, isAuth: action.payload.isAuth };
         case actionTypes.GET_USER_PROFILE:
             return { ...state, profile: action.payload.profile }
         default:

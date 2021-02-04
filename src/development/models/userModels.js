@@ -1,4 +1,4 @@
-google = {
+const google = {
     "uid": "YAGlGsgSjjUxr79q9gFmaXINW3k2",
     "displayName": "Sean Murphy",
     "photoURL": "https://avatars.githubusercontent.com/u/25235189?v=4",
@@ -30,7 +30,7 @@ google = {
 }
 
 
-github = {
+const github = {
     "user": {
         "uid": "YAGlGsgSjjUxr79q9gFmaXINW3k2",
         "displayName": "Sean Murphy",

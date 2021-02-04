@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from '../../config/firebase';
+import './styles/Auth.scss';
 
 const SignIn = () => {
 
@@ -20,7 +21,16 @@ const SignIn = () => {
             });
     };
 
-    return <button onClick={handleSignIn}>Sign in with Github</button>;
-}
+    return (
+        <button
+            id="github-login-button"
+            className="uk-button uk-button-small uk-button-secondary"
+            onClick={handleSignIn}
+        >
+            Sign in with Github
+            <span id="github-login-icon" data-uk-icon="icon: github" />
+        </button>
+    );
+};
 
 export default SignIn;
