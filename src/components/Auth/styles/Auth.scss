@@ -1,0 +1,16 @@
+#github-login-button {
+    margin: 0 -5px 0 5px;
+    top: -1px;
+    position: relative;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.025);
+    }
+}
+
+#github-login-icon {
+    margin: 0 -5px 0 5px;
+    top: -1px;
+    position: relative;
+}

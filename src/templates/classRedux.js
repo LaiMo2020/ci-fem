@@ -12,7 +12,7 @@ class ClassRedux extends Component {
 };
 
 const mapStateToProps = state => {
-    return { };
+    return {};
 };
 
 export default connect(null, null)(ClassRedux);

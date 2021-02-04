@@ -1,0 +1,71 @@
+@import "./src/styles/variables.scss";
+
+#nav {
+    padding: 10px 15px;
+    max-height: 60px;
+    border-bottom: 1px solid;
+    border-bottom-color: $lightgrey;
+
+    /*
+     =================================
+        desktop nav
+     ================================
+    */
+
+    #navProfileButton {
+        object-fit: cover;
+        height: 40px;
+        margin: auto 10px;
+
+        img {
+            height: 100%;
+            width: auto;
+
+            &:hover {
+                outline: 2px dotted $blue;
+            }
+        }
+    }
+
+    #desktopDropdownNav {
+        position: absolute;
+        top: 75px;
+        right: 15px;
+        background-color: $white;
+        border: 1px solid $lightgrey;
+
+        ul {
+            li {
+                min-width: 150px;
+                transition: 0.3s;
+
+                a {
+                    display: block;
+                    padding: 10px;
+                }
+
+                &:hover {
+                    background-color: $lighter-grey;
+                }
+            }
+
+            li:last-of-type {
+                padding: 10px;
+            }
+
+            li:not(:last-of-type) {
+                border-bottom: 1px solid $lightgrey;
+            }
+        }
+    }
+
+    /*
+     =================================
+        mobile nav
+     ================================
+    */
+
+    .uk-navbar-toggle {
+        min-height: auto;
+    }
+}
