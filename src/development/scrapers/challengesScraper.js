@@ -17,7 +17,7 @@ const dir = path.join(__dirname, '../json');
 */
 
 let cards;
-const challenges = {};
+const challenges = [];
 
 /*
 ============================================
@@ -59,7 +59,7 @@ const parseCards = cards => {
             return languagesString.includes(lang);
         });
 
-        challenges[challenge.title] = challenge;
+        challenges.push(challenge);
     }
 }
 
