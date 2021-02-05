@@ -10,3 +10,11 @@ export const getUserProfile = async uid => {
         .then(doc => doc.exists ? doc.data() : null)
         .catch(error => null);
 };
+
+export const getUserProfileByUsername = async username => {
+    return await users
+        .where('username', '==', username)
+        .get()
+        .then(doc => !doc.empty ? doc.docs[0].data() : null)
+        .catch(error => null)
+};

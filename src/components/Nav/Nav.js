@@ -3,7 +3,7 @@ import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import './styles/Nav.scss';
 
-const BaseNav = ({ user }) => {
+const Nav = ({ user }) => {
     const [navViewType, setNavViewType] = useState();
 
     useEffect(() => {
@@ -27,4 +27,4 @@ const BaseNav = ({ user }) => {
     );
 };
 
-export default BaseNav;
+export default Nav;

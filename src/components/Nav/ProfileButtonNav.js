@@ -14,8 +14,9 @@ const ProfileButtonNav = ({ user }) => {
     const dropDownNav = () => {
         return (
             <ul>
-                <li><Link to="/">Item 1</Link></li>
-                <li><Link to="/">Item 2</Link></li>
+                <li>
+                    <Link to={`/profile/${user.profile.username}`}>Profile</Link>
+                </li>
                 <SignOut />
             </ul>
         );

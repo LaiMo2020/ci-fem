@@ -3,8 +3,10 @@ import firebase from '../../config/firebase';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { signInUser } from '../../store/actions/authActions';
-import Nav from '../Nav/BaseNav';
 import Home from '../Home/Home';
+import Loader from '../App/Loader';
+import Nav from '../Nav/Nav';
+import Profile from '../Profile/Profile';
 import _404 from '../Errors/_404';
 
 class App extends Component {
@@ -29,16 +31,19 @@ class App extends Component {
     }
 
     render() {
-        return (
-            <>
-                <Nav user={this.props.user} />
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="*" component={_404} />
-                </Switch>
-            </>
-        );
-    };
+        return this.props.user
+            ?  (
+                <>
+                    <Nav user={this.props.user} />
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/profile/:username" exact component={props => <Profile {...props} user={this.props.user} /> } />
+                        <Route path="*" component={_404} />
+                    </Switch>
+                </>
+            )
+            : <Loader />;
+    }
 }
 
 const mapStateToProps = state => {
