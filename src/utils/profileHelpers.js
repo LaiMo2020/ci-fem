@@ -4,7 +4,11 @@ export const createProfile = githubUserData => {
         github: {
             ...createGithubData(githubUserData)
         },
-        challenges: {},
+        challenges: {
+            items: [],
+            score: 0,
+            ranking: 0
+        },
         uid: githubUserData?.user?.uid || null,
         username: githubUserData?.additionalUserInfo?.username || null,
         name: githubUserData?.additionalUserInfo?.profile?.name || null,

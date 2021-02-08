@@ -10,7 +10,7 @@ const PrivateProfile = ({ user }) => {
     return (
         <div id="profile">
             <div>
-                private profile
+               private profile
             </div>
         </div>
     );

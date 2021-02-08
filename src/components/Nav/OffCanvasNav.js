@@ -4,20 +4,24 @@ import SignIn from "../Auth/SignIn";
 import SignOut from "../Auth/SignOut";
 
 const OffCanvasNav = ({ user }) => {
+
+    const renderOffCanvasLink = (value, icon) => {
+        return (
+            <>
+                <li className="uk-nav-divider" />
+                <li data-uk-toggle="target: #off-canvas-nav">
+                    <Link to={`/${value}`}>
+                        <span data-uk-icon={icon} />
+                        <span className="uk-align-right">{value[0].toUpperCase() + value.slice(1,)}</span>
+                    </Link>
+                </li>
+            </>
+        );
+    };
+
     return (
         <ul id="off-canvas-nav" className="uk-nav uk-nav-default">
-            {/* sign in */}
-            {
-                !user.isAuth
-                    ? (
-                        <>
-                            <li className="uk-nav-divider" />
-                            <SignIn viewType="mobile" />
-                        </>
-                    )
-                    : null
-            }
-            {/* profile */}
+            {/* sign in || profile */}
             {
                 user.isAuth
                     ? (
@@ -37,40 +41,27 @@ const OffCanvasNav = ({ user }) => {
                             </li>
                         </>
                     )
-                    : null
+                    : (
+                        <>
+                            <li className="uk-nav-divider" />
+                            <SignIn viewType="mobile" />
+                        </>
+                    )
             }
             {/* challenges */}
-            <li className="uk-nav-divider" />
-            <li data-uk-toggle="target: #off-canvas-nav">
-                <Link to="/challenges">
-                    <span data-uk-icon="code" />
-                    <span className="uk-align-right">Challenges</span>
-                </Link>
-            </li>
+            {
+                renderOffCanvasLink('challenges', 'code')
+            }
             {/* forums */}
             {
                 user.isAuth
-                    ? (
-                        <>
-                            <li className="uk-nav-divider" />
-                            <li data-uk-toggle="target: #off-canvas-nav">
-                                <Link to="/forum">
-                                    <span data-uk-icon="commenting" />
-                                    <span className="uk-align-right">Forum</span>
-                                </Link>
-                            </li>
-                        </>
-                    )
+                    ? renderOffCanvasLink('forums', 'commenting')
                     : null
             }
             {/* leaderboards */}
-            <li className="uk-nav-divider" />
-            <li data-uk-toggle="target: #off-canvas-nav">
-                <Link to="/leaderboards">
-                    <span data-uk-icon="hashtag" />
-                    <span className="uk-align-right">Leaderboards</span>
-                </Link>
-            </li>
+            {
+                renderOffCanvasLink('leaderboards', 'hashtag')
+            }
             {/* sign out */}
             {
                 user.isAuth
@@ -79,9 +70,9 @@ const OffCanvasNav = ({ user }) => {
                             <li className="uk-nav-divider" />
                             <SignOut viewType="mobile" />
                         </>
-                    )
-                    : null
+                    ) : null
             }
+            <li className="uk-nav-divider" />
         </ul>
     );
 };

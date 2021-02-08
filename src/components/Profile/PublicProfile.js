@@ -8,7 +8,7 @@ const PublicProfile = ({ user, profile }) => {
     }, []);
 
     return (
-        <div>
+        <div className="profile">
             public profile
         </div>
     );
