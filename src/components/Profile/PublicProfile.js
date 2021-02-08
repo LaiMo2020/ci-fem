@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
-import { documentTitle } from "../../utils/componentHelpers";
+import { setTitle } from "../../utils/componentHelpers";
 
 const PublicProfile = ({ user, profile }) => {
 
     useEffect(() => {
-        if (profile.username) {
-            documentTitle(`profile : ${profile.username}`);
-        }
+        setTitle(`profile : ${profile.username}`);
     }, []);
 
     return (

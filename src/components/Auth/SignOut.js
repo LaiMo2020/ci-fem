@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from '../../config/firebase';
 import { connect } from 'react-redux';
 import { Link, useHistory } from "react-router-dom";
-import { documentTitle } from "../../utils/componentHelpers";
+import { resetTitle } from "../../utils/componentHelpers";
 import { signOutUser } from '../../store/actions/authActions';
 
 const SignOut = (props) => {
@@ -15,7 +15,7 @@ const SignOut = (props) => {
             .then(() => {
                 props.signOutUser(props.user);
                 history.push("/");
-                documentTitle(`CI FEM COHORT`);
+                resetTitle();
             })
     }
 
