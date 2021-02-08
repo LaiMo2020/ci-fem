@@ -7,8 +7,10 @@ const PrivateProfile = ({ user }) => {
     }, []);
 
     return (
-        <div>
-            Private
+        <div id="profile">
+            <div>
+                private profile
+            </div>
         </div>
     );
 };

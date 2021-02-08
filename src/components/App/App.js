@@ -8,6 +8,7 @@ import Loader from '../App/Loader';
 import Nav from '../Nav/Nav';
 import Profile from '../Profile/Profile';
 import _404 from '../Errors/_404';
+import './styles/App.scss';
 
 class App extends Component {
 
@@ -32,12 +33,12 @@ class App extends Component {
 
     render() {
         return this.props.user
-            ?  (
+            ? (
                 <>
                     <Nav user={this.props.user} />
                     <Switch>
                         <Route path="/" exact component={Home} />
-                        <Route path="/profile/:username" exact component={props => <Profile {...props} user={this.props.user} /> } />
+                        <Route path="/profile/:username" exact component={props => <Profile {...props} user={this.props.user} />} />
                         <Route path="*" component={_404} />
                     </Switch>
                 </>
