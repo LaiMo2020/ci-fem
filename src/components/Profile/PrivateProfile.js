@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
+import { documentTitle } from "../../utils/componentHelpers";
 
 const PrivateProfile = ({ user }) => {
 
     useEffect(() => {
-        console.log(user.profile);
+        if (user.profile.username)
+            documentTitle(`profile : ${user.profile.username}`);
     }, []);
 
     return (

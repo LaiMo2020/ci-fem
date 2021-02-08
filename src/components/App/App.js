@@ -3,6 +3,7 @@ import firebase from '../../config/firebase';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { signInUser } from '../../store/actions/authActions';
+import { documentTitle } from "../../utils/componentHelpers";
 import Home from '../Home/Home';
 import Loader from '../App/Loader';
 import Nav from '../Nav/Nav';
@@ -13,6 +14,8 @@ import './styles/App.scss';
 class App extends Component {
 
     componentDidMount() {
+        documentTitle(`CI FEM Cohort`);
+
         firebase
             .auth()
             .onAuthStateChanged(firebaseUserData => {
