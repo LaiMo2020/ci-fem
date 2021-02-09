@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import firebase from '../../config/firebase';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
-import Footer from '../Footer/Footer';
 import { signInUser } from '../../store/actions/authActions';
-import Nav from '../Nav/BaseNav';
+import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
+import Nav from '../Nav/BaseNav';
 import _404 from '../Errors/_404';
 
 class App extends Component {
@@ -33,11 +33,11 @@ class App extends Component {
         return (
             <>
                 <Nav user={this.props.user} />
+                <Footer />
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="*" component={_404} />
                 </Switch>
-                <Footer />
             </>
         );
     };
