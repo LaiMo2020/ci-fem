@@ -1,16 +1,40 @@
 @import "./src/styles/variables.scss";
+@import "./src/styles/mixins.scss";
 
-#nav {
+#desktop-nav,
+#mobile-nav {
     padding: 10px 15px;
-    max-height: 60px;
+    max-height: 70px;
     border-bottom: 1px solid;
     border-bottom-color: $lightgrey;
 
     /*
-     =================================
-        desktop nav
-     ================================
+    =====================
+        desktop nav 
+    =====================
     */
+    #navbar-center {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    // navbar items
+    .underline-center {
+        @include underline-center($red);
+        padding: 0 !important;
+        margin: 0 12px;
+    }
+
+    .uk-navbar-nav > li > a {
+        min-height: auto;
+        color: $black;
+        transition: 0.3s;
+        font-size: 80%;
+
+        &:hover {
+            color: $grey;
+        }
+    }
 
     #navProfileButton {
         object-fit: cover;
@@ -27,45 +51,53 @@
         }
     }
 
-    #desktopDropdownNav {
-        position: absolute;
-        top: 75px;
-        right: 15px;
-        background-color: $white;
-        border: 1px solid $lightgrey;
+    .uk-dropdown {
+        min-width: 150px;
+        padding: 20px 25px;
 
-        ul {
-            li {
-                min-width: 150px;
-                transition: 0.3s;
+        li > a {
+            color: $grey;
+            transition: 0.3s;
 
-                a {
-                    display: block;
-                    padding: 10px;
-                }
-
-                &:hover {
-                    background-color: $lighter-grey;
-                }
-            }
-
-            li:last-of-type {
-                padding: 10px;
-            }
-
-            li:not(:last-of-type) {
-                border-bottom: 1px solid $lightgrey;
+            &:hover {
+                color: $lighter-grey;
             }
         }
     }
 
-    /*
-     =================================
-        mobile nav
-     ================================
-    */
+    [class*="uk-align"] {
+        margin-bottom: 0;
+    }
 
+    /*
+    =====================
+        mobile nav 
+    =====================
+    */
     .uk-navbar-toggle {
         min-height: auto;
+        margin-top: 2px;
+    }
+
+    #logo-tagline {
+        font-family: "Roboto", sans-serif;
+        font-size: 50%;
+    }
+
+    #off-canvas-nav {
+        padding-top: 20px;
+
+        .uk-nav-divider {
+            margin: 7px auto;
+        }
+
+        a {
+            color: $white;
+            transition: 0.3s;
+
+            &:hover {
+                color: $grey;
+            }
+        }
     }
 }

@@ -51,7 +51,5 @@ export const signOutUser = async user => {
     catch (error) {
         console.log(error.code, error.message);
     }
-    finally {
-        return { profile: null, isAuth: false };
-    }
+    return { profile: null, isAuth: false };
 };

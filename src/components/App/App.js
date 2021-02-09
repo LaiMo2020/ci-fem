@@ -5,8 +5,11 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import { signInUser } from '../../store/actions/authActions';
 import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
-import Nav from '../Nav/BaseNav';
+import Loader from '../App/Loader';
+import Nav from '../Nav/Nav';
+import Profile from '../Profile/Profile';
 import _404 from '../Errors/_404';
+import './styles/App.scss';
 
 class App extends Component {
 
@@ -30,17 +33,22 @@ class App extends Component {
     }
 
     render() {
-        return (
-            <>
-                <Nav user={this.props.user} />
-                <Footer />
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="*" component={_404} />
-                </Switch>
-            </>
-        );
-    };
+        return this.props.user
+            ? (
+                <>
+                    <Nav user={this.props.user} />
+                    <main className="uk-container">
+                        <Switch>
+                            <Route path="/" exact component={Home} />
+                            <Route path="/profile/:username" exact component={props => <Profile {...props} user={this.props.user} />} />
+                            <Route path="*" component={_404} />
+                        </Switch>
+                    </main>
+                    <Footer />
+                </>
+            )
+            : <Loader />;
+    }
 }
 
 const mapStateToProps = state => {
