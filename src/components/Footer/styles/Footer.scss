@@ -1,0 +1,86 @@
+@import "./src/styles/variables.scss";
+@import "./src/styles/mixins.scss";
+
+/*
+==================================
+    FOOTER
+==================================
+*/
+
+footer {
+    border-top: 1px dotted #ac9999;
+}
+
+.quick-links {
+
+    & li {
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__link {
+        color: $black;
+    }
+
+    &__link:hover {
+        color: $darkblue;
+    }
+
+    &__link:active,
+    &__link:focus {
+        color: $darkblue;
+        outline: 2px dotted $blue;
+        outline-offset: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .underline-center {
+        @include underline-center($red);
+    }
+}
+
+.project-desc {
+    color: $black;
+    padding: 1rem 2rem;
+
+    @media (min-width: 961px) {
+        padding: 0;
+    }
+}
+
+.dev-links {
+
+    & li {
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__link {
+        color: $black;
+
+        &:active,
+        &:focus {
+            color: $darkblue;
+            outline: 2px dotted $blue;
+            outline-offset: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &:hover {
+            color: $darkblue;
+        }
+    }
+
+    &__link:hover > &__icon {
+        transform: translateX(-3px);
+        transition: all 1s ease;
+    }
+
+    &__name {
+        padding: 0 0.3rem;
+    }
+}
