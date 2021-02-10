@@ -1,6 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
-import "./styles/Footer.scss";
+import './styles/Footer.scss';
 
 const Footer = () => {
 
@@ -62,10 +61,9 @@ const Footer = () => {
                     </div>
                     <div className="uk-width-1-3@m uk-flex uk-flex-middle uk-flex-center">
                         <p className="project-desc uk-text-center uk-text-left@m">
-                            This project was a paired programming effort by { renderDevs().length } ragtag
-                            Developers with a flair un-paralleled in the known world, to create a local space
-                            for CI-cohorts to post their solutions to Frontend Mentor challenges and compare
-                            amongst their peers.
+                            This project was a paired programming effort by { renderDevs().length } Developers,
+                            to create a local space for Code Institute Cohorts to post their solutions to Frontend
+                            Mentor challenges and compare amongst their peers.
                         </p>
                     </div>
                     <div className="uk-width-expand@m uk-flex uk-flex-middle uk-flex-center uk-flex-right@m">
