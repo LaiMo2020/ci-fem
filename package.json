@@ -5,12 +5,9 @@
     "description": "Website for the Code Institute Student Cohort for creating Frontend Mentor Challenges.",
     "author": "Sean Murphy && Anthony O'Brien",
     "dependencies": {
-        "cheerio": "^1.0.0-rc.5",
         "firebase": "^8.2.4",
         "gsap": "^3.6.0",
-        "node-fetch": "^2.6.1",
         "node-sass": "^4.14.1",
-        "puppeteer": "^7.0.0",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-helmet": "^6.1.0",
@@ -19,8 +16,13 @@
         "react-scripts": "4.0.1",
         "react-spring": "^8.0.27",
         "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+        "cheerio": "^1.0.0-rc.5",
+        "puppeteer": "^7.0.0",
+        "node-fetch": "^2.6.1",
         "redux-devtools-extension": "^2.13.8",
-        "redux-thunk": "^2.3.0",
         "request": "^2.88.2",
         "request-promise": "^4.2.6"
     },
