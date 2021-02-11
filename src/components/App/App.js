@@ -3,6 +3,7 @@ import firebase from '../../config/firebase';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { signInUser } from '../../store/actions/authActions';
+import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
 import Loader from '../App/Loader';
 import Nav from '../Nav/Nav';
@@ -43,6 +44,7 @@ class App extends Component {
                             <Route path="*" component={_404} />
                         </Switch>
                     </main>
+                    <Footer />
                 </>
             )
             : <Loader />;
