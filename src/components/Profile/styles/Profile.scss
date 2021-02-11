@@ -1,0 +1,50 @@
+@import "./src/styles/variables.scss";
+
+#profile {
+
+    #profile-tabs {
+        margin: 30px auto;
+    }
+
+    #profile-info {
+        margin: 30px auto;
+
+        #profile-left {
+            text-align: left;
+
+            #profile-avatar {
+                img {
+                    height: auto;
+                    max-width: 50%;
+                    border-radius: 50%;
+                }
+            }
+
+            .username {
+                margin: 0;
+                margin-top: 40px;
+            }
+
+            
+    
+            @media all and (max-width: 700px) {
+                text-align: center;
+            }
+        }
+    }
+
+    #profile-right {
+        text-align: right;
+
+        .logo-icons {
+            margin: 0 5px;
+            top: -2px;
+            position: relative;
+            display: inline-block;
+        }
+
+        @media all and (max-width: 700px) {
+            text-align: center;
+        }
+    }
+}

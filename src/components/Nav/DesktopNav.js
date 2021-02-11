@@ -8,7 +8,7 @@ const DesktopNav = ({ user, isTouch }) => {
 
     const renderNavLinks = () => {
         const navItems = user.isAuth
-            ? ['challenges', 'forum', 'leaderboards']
+            ? ['challenges', 'forum', 'leaderboards', 'submit']
             : ['challenges', 'leaderboards'];
 
         return navItems.map((item, i) => (

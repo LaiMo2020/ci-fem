@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Redirect } from 'react-router-dom';
 import { getUserProfileByUsername } from '../../services/profileService';
+import BaseProfile from './BaseProfile';
 import Loader from '../App/Loader';
-import PrivateProfile from './PrivateProfile';
-import PublicProfile from "./PublicProfile";
+import './styles/Profile.scss';
 
 const Profile = (props) => {
     const [isPrivateProfile, setIsPrivateProfile] = useState(null);
     const [requestedProfile, setRequestedProfile] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const isMounted = useRef(false);
+    const isMounted = useRef(null);
 
     useEffect(() => {
         isMounted.current = true;
@@ -41,11 +41,10 @@ const Profile = (props) => {
     }, [props.match.params])
 
     // return Loader if not yet ready
-    // redirect if no profile found, otherwise show private or public profile
+    // redirect if no profile found, return profile component
     if (isLoading) return <Loader />;
-    else if (isPrivateProfile) return <PrivateProfile user={props.user} />;
-    else if (!requestedProfile) return <Redirect to="/page-not-found" />;
-    else return <PublicProfile user={props.user} profile={requestedProfile} />;
+    else if (!isPrivateProfile && !requestedProfile) return <Redirect to="/page-not-found" />;
+    else return <BaseProfile user={props.user} requestedProfile={requestedProfile} isPrivateProfile={isPrivateProfile} />;
 };
 
 export default Profile;

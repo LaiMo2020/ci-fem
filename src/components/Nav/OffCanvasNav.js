@@ -62,6 +62,12 @@ const OffCanvasNav = ({ user }) => {
             {
                 renderOffCanvasLink('leaderboards', 'hashtag')
             }
+            {/* submissions */}
+            {
+                user.isAuth
+                    ? renderOffCanvasLink('submit', 'upload')
+                    : null
+            }
             {/* sign out */}
             {
                 user.isAuth

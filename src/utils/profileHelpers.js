@@ -7,7 +7,8 @@ export const createProfile = githubUserData => {
         challenges: {
             items: [],
             score: 0,
-            ranking: 0
+            ranking: 0,
+            current_challenege: null
         },
         uid: githubUserData?.user?.uid || null,
         username: githubUserData?.additionalUserInfo?.username || null,
