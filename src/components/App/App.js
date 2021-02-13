@@ -37,7 +37,7 @@ class App extends Component {
             ? (
                 <>
                     <Nav user={this.props.user} />
-                    <main className="uk-container">
+                    <main className="uk-container uk-margin uk-margin-large-bottom" data-uk-height-viewport="expand: true">
                         <Switch>
                             <Route path="/" exact component={Home} />
                             <Route path="/profile/:username" exact component={props => <Profile {...props} user={this.props.user} />} />
@@ -61,4 +61,4 @@ const mapDispatchToProps = {
     signInUser
 };
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
+export default connect(mapStateToProps, mapDispatchToProps)(App);

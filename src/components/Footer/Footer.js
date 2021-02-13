@@ -51,7 +51,7 @@ const Footer = () => {
     }
 
     return (
-        <footer className="uk-position-bottom uk-padding-small">
+        <footer className="uk-padding-small">
             <div className="uk-container">
                 <div className="uk-grid uk-grid-large">
                     <div className="uk-width-1-4@m">

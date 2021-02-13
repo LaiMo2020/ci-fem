@@ -1,16 +1,8 @@
-import React, { useEffect } from 'react';
-import { resetTitle } from "../../utils/componentHelpers";
+import React from 'react';
 
 const Home = () => {
-
-    useEffect(() => {
-        resetTitle();
-    }, []);
-
     return (
-        <>
-            Home
-        </>
+        <></>
     );
 };
 
